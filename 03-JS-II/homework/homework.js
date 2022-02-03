@@ -48,16 +48,21 @@ function saludo(idioma) {
   // Si "idioma" no es ninguno de los anteiores o es `undefined` devuelve "Hola!"
   // Tu código:
   switch (idioma){
-  case 'aleman' : 
+  
+    case 'aleman' : 
   return 'Guten Tag';
   break;
+
   case 'mandarin' :
     return 'Ni Hao';
     break;
+
     case 'ingles' :
       return 'Hello';
       break;
-      case others : 
+
+      default :
+      return 'Hola!'; 
       break;
 }}
 
