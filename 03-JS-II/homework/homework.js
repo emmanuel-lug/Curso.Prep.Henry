@@ -50,15 +50,15 @@ function saludo(idioma) {
   switch (idioma){
   
     case 'aleman' : 
-  return 'Guten Tag';
+  return 'Guten Tag!';
   break;
 
   case 'mandarin' :
-    return 'Ni Hao';
+    return 'Ni Hao!';
     break;
 
     case 'ingles' :
-      return 'Hello';
+      return 'Hello!';
       break;
 
       default :
@@ -97,12 +97,22 @@ function esDiezOCinco(numero) {
   //6 Devuelve "true" si "numero" es 10 o 5
   // De lo contrario, devuelve "false"
   // Tu código:
+  if(numero === 10 || numero === 5){
+    return true;
+  }else{
+    return false;
+  }
 }
 
 function estaEnRango(numero) {
   //7 Devuelve "true" si "numero" es menor que 50 y mayor que 20
   // De lo contrario, devuelve "false"
   // Tu código:
+  if(numero < 50 && numero > 20){
+    return true;
+  }else {
+    return false;
+  }
 }
 
 function esEntero(numero) {
