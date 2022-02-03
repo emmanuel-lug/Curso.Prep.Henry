@@ -174,7 +174,7 @@ function esPrimo(numero) {
   // Nota: Los números 0 y 1 NO son considerados números primos
   for (i = 1; i < numero ; i++)
   {
-  if(numero % i !=== 0)
+  if(numero % i === 0)
   {
   return 'falso';
   }
@@ -193,6 +193,10 @@ function tablaDelSeis(){
   //13 Escribe una función que muestre la tabla de multiplicar del 6 (del 0 al 60).
   //La función devuelve un array con los resultados de la tabla de multiplicar del 6 en orden creciente.
   //Escribe tu código aquí   
+  for (i= 0; i <= 60 ; i++)
+  {
+    return 6 * i;
+  }
   
 }
 
