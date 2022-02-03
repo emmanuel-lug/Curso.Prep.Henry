@@ -41,16 +41,28 @@ function conection(status) {
 }
 
 function saludo(idioma) {
-  // Devuelve un saludo en tres diferentes lenguajes:
+  //4 Devuelve un saludo en tres diferentes lenguajes:
   // Si "idioma" es "aleman", devuelve "Guten Tag!"
   // Si "idioma" es "mandarin", devuelve "Ni Hao!"
   // Si "idioma" es "ingles", devuelve "Hello!"
   // Si "idioma" no es ninguno de los anteiores o es `undefined` devuelve "Hola!"
   // Tu código:
-}
+  switch (idioma){
+  case 'aleman' : 
+  return 'Guten Tag';
+  break;
+  case 'mandarin' :
+    return 'Ni Hao';
+    break;
+    case 'ingles' :
+      return 'Hello';
+      break;
+      case others : 
+      break;
+}}
 
 function colors(color) {
-  //La función recibe un color. Devolver el string correspondiente:
+  //5 La función recibe un color. Devolver el string correspondiente:
   //En caso que el color recibido sea "blue", devuleve --> "This is blue"
   //En caso que el color recibido sea "red", devuleve --> "This is red"
   //En caso que el color recibido sea "green", devuleve --> "This is green"
@@ -60,19 +72,19 @@ function colors(color) {
 }
 
 function esDiezOCinco(numero) {
-  // Devuelve "true" si "numero" es 10 o 5
+  //6 Devuelve "true" si "numero" es 10 o 5
   // De lo contrario, devuelve "false"
   // Tu código:
 }
 
 function estaEnRango(numero) {
-  // Devuelve "true" si "numero" es menor que 50 y mayor que 20
+  //7 Devuelve "true" si "numero" es menor que 50 y mayor que 20
   // De lo contrario, devuelve "false"
   // Tu código:
 }
 
 function esEntero(numero) {
-  // Devuelve "true" si "numero" es un entero (int/integer)
+  //8 Devuelve "true" si "numero" es un entero (int/integer)
   // Ejemplo: 0.8 -> false
   // Ejemplo: 1 -> true
   // Ejemplo: -10 -> true
@@ -82,14 +94,14 @@ function esEntero(numero) {
 }
 
 function fizzBuzz(numero) {
-  // Si "numero" es divisible entre 3, devuelve "fizz"
+  //9 Si "numero" es divisible entre 3, devuelve "fizz"
   // Si "numero" es divisible entre 5, devuelve "buzz"
   // Si "numero" es divisible entre 3 y 5 (ambos), devuelve "fizzbuzz"
   // De lo contrario, devuelve el numero
 }
 
 function operadoresLogicos(num1, num2, num3) {
-  //La función recibe tres números distintos. 
+  //10 La función recibe tres números distintos. 
   //Si num1 es mayor a num2 y a num3 y además es positivo, retornar ---> "Número 1 es mayor y positivo"
   //Si alguno de los tres números es negativo, retornar ---> "Hay negativos"
   //Si num3 es más grande que num1 y num2, aumentar su valor en 1 y retornar el nuevo valor.
