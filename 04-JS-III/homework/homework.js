@@ -140,16 +140,16 @@ function multiplicarArgumentos() {
   {
     return 0;
   }
- // if(arguments.lenght === 1)
- // {
- //   return 1;
- // }
- // var j =1:
- // for(i =0; i<arguments.length; i++)
- // {
- //   j = j* arguments[i]; 
- // }
- // return j;
+  if(arguments.lenght === 1)
+  {
+    return 1;
+  }
+  var j =1;
+  for(i =0; i<arguments.length; i++)
+  {
+    j = j* arguments[i]; 
+  }
+  return j;
 }
 
 
