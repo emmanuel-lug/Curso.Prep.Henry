@@ -211,7 +211,7 @@ function todosIguales(arreglo) {
 //  return true
  
  // for (var i =0 ; i < arreglo.length - 1; i++) {
-    for (var i =0 ; i < arreglo.lenght - 1; i++){
+    for (var i =0 ; i < arreglo.length - 1; i++){
     if(arreglo[i] !== arreglo[i+1]){
       return false
     }
