@@ -188,7 +188,16 @@ function empiezaConNueve(n) {
   //15 Desarrolle una función que recibe como parámetro un número entero n. Debe retornar true si el entero 
   //inicia con 9 y false en otro caso.
   //Escribe tu código aquí
-  
+  while(n > 0)
+  {
+    n = n /10;
+  }
+  if(n === 9)
+  {
+    return true;
+  }else{
+    return false;
+  }
 }
 
 
