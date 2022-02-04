@@ -254,10 +254,10 @@ function breakStatement(numero) {
   //Pista: usá el statement 'break'
   // Tu código:
   var nuevoarray = [];
-  var valor = 0;
+  var valor = numero;
   for (var i = 0; i <10; i++)
   {
-  valor = numero + 2;  
+  valor = valor + 2;  
   if(valor == i)
   {
    break; 
