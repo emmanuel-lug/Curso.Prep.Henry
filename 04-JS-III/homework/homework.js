@@ -200,11 +200,13 @@ function empiezaConNueve(n) {
 function todosIguales(arreglo) {
   //16 Escriba la función todosIguales, que indique si todos los elementos de un arreglo son iguales:
   //retornar true, caso contrario retornar false.
-  //Escribe tu código aquí  
+  //Escribe tu código aquí
+  var igual = arreglo[0];  
   for(i = 1; i< arreglo.lenght ; i++)
   {
-   if(arreglo[i] !=== arreglo[0])
+   if(arreglo[i] === igual)
    {
+   }else{
      return false;
    }
   }
@@ -245,6 +247,7 @@ function continueStatement(numero) {
   //Cuando el número de iteraciones alcance el valor 5, no se suma en ese caso y se continua con la siguiente iteración
   //Pista: usá el statement 'continue'
   // Tu código:
+
 }
 
 
