@@ -8,27 +8,34 @@ function devolverPrimerElemento(array) {
 
 
 function devolverUltimoElemento(array) {
-  // Devuelve el último elemento de un array
+  //2 Devuelve el último elemento de un array
   // Tu código:
+  return array[array.length-1];
 }
 
 
 function obtenerLargoDelArray(array) {
-  // Devuelve el largo de un array
+  //3 Devuelve el largo de un array
   // Tu código:
+  return array.length;
 }
 
 
 function incrementarPorUno(array) {
-  // "array" debe ser una matriz de enteros (int/integers)
+  //4 "array" debe ser una matriz de enteros (int/integers)
   // Aumenta cada entero por 1
   // y devuelve el array
   // Tu código:
+  for (i=0; i < array.length; i++)
+  {
+   array[i] = i; 
+  }
+  return array;
 }
 
 
 function agregarItemAlFinalDelArray(array, elemento) {
-  // Añade el "elemento" al final del array
+  //5 Añade el "elemento" al final del array
   // y devuelve el array
   // Tu código:
 }
