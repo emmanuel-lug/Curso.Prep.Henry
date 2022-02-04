@@ -210,14 +210,18 @@ function tablaDelSeis(){
 function tieneTresDigitos(numero){
   //14 Leer un número entero y retornar true si tiene 3 dígitos. Caso contrario, retorna false.
   //Escribe tu código aquí
-  
+  if (numero > 99 && numero < 1000)
+  { return true;
+  } else {
+    return false;
+  }
 }
 
 function doWhile(numero) {
   //15 Implementar una función tal que vaya aumentando el valor recibido en 5 hasta un límite de 8 veces
   //Retornar el valor final.
   //Usar el bucle do ... while.
-}
+  }
 
 
 // No modificar nada debajo de esta línea
