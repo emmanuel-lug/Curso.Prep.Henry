@@ -147,7 +147,7 @@ function multiplicarArgumentos() {
   var j =1:
   for(i =0; i<arguments.length; i++)
   {
-    j = j* arguments[i];
+    j = j* arguments[i]; 
   }
   return j;
 }
