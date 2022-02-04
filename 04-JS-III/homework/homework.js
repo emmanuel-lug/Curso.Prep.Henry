@@ -63,7 +63,12 @@ function dePalabrasAFrase(palabras) {
   var  lista = '';
   for(i=0; i<palabras.length; i++)
   {
+   if(i === 0)
+   {
+     lista = palabras[i];
+   }else{
    lista = lista + ' ' + palabras[i];
+   }
   }
   return lista;
 }
