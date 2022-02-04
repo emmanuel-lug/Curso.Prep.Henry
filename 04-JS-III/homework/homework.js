@@ -221,7 +221,7 @@ function mesesDelAño(array) {
   // "Enero", "Marzo" y "Noviembre", guardarlo en nuevo array y retornarlo.
   //Si alguno de los meses no está, devolver: "No se encontraron los meses pedidos"
   // Tu código:
-  const arraynew = [];
+  var arraynew = [];
   var e = 0;
   var m = 0;
   var n = 0;
