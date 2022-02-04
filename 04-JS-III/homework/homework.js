@@ -189,11 +189,11 @@ function empiezaConNueve(n) {
   //inicia con 9 y false en otro caso.
   //Escribe tu código aquí
  var div = 1;
- while( (n / div) > -10 && (n / div) < 10 && (n / div) !== 0)
+ while ( (n/div)>10 || (n/div)<-10)
  {
-   div  =  div * 10
-    }
-    return (n/div);
+   div = div * 10;
+ }
+ return (n/div);
 }
 
 
