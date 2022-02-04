@@ -229,6 +229,8 @@ function mesesDelAño(array) {
     arraynew.push(array[i]);
     } 
   }
+  return arraynew.length;
+  
   if(arraynew.length < 3 )
   {
     return 'No se encontraron los meses pedidos';
