@@ -93,6 +93,12 @@ function agregarNumeros(numeros) {
   //9 "numeros" debe ser un arreglo de enteros (int/integers)
   // Suma todos los enteros y devuelve el valor
   // Tu código:
+  var valor = 0;
+  for(i=0; i< numeros.length; i++)
+  {
+   valor = valor + numeros[i];
+  }
+  return valor;
 }
 
 
