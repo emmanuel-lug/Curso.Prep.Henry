@@ -205,10 +205,10 @@ function todosIguales(arreglo) {
   //Escribe tu código aquí
   for (var i =0 ; i < arreglo.length - 1; i++){
    if(arreglo[i] !== arreglo[i+1]){
-    return false  
+    return false;  
     }
   }
-//  return true
+  return true;
  
  // for (var i =0 ; i < arreglo.length - 1; i++) {
 
@@ -216,7 +216,7 @@ function todosIguales(arreglo) {
  //     return false
  //   }
  // }
-  return true
+ // return true
 } 
 
 
