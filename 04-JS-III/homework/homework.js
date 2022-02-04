@@ -163,7 +163,7 @@ function cuentoElementos(arreglo){
   {
     if(arreglo[i] > 18)
     {
-     ka = ka+ 1;
+     ka = ka + 1;
     }
   }
   return ka;
@@ -221,6 +221,36 @@ function mesesDelAño(array) {
   // "Enero", "Marzo" y "Noviembre", guardarlo en nuevo array y retornarlo.
   //Si alguno de los meses no está, devolver: "No se encontraron los meses pedidos"
   // Tu código:
+  const arraynew = [];
+  var e = 0;
+  var m = 0;
+  var n = 0;
+  for(var i = 0; i< array.lenght; i++)
+  {
+    if(array[i] === 'Enero')
+    {
+    arraynew.push('Enero');
+    e = e+1;
+    } 
+    if( array === 'Marzo' )
+    {
+    arraynew.push('Marzo');
+    m = m+1;
+    } 
+    if(array === 'Noviembre')
+    {
+     arraynew.push('Noviembre');
+     n = n+1;
+    }
+  }
+  if(n === 0  || m === 0  || e === 0)
+  {
+    return 'No se encontraron los meses pedidos'
+  }else
+  {
+    return arraynew;
+  }
+
 }
 
 
