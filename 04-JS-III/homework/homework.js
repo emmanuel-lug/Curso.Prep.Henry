@@ -262,7 +262,7 @@ function breakStatement(numero) {
   {
    break; 
   }else{
-    nuevoarray.push(numero)
+    nuevoarray.push(valor)
   }
   }
   if( i <10)
