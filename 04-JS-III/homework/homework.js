@@ -294,9 +294,6 @@ function continueStatement(numero) {
   }
   }
     return nuevoarray
-  }
-
-
 }
 
 
