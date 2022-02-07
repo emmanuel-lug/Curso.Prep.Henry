@@ -46,9 +46,8 @@ function eliminarPropiedad(objeto, unaPropiedad) {
   // tip: tenes que usar bracket notation
   // Devuelve el objeto
   // Tu código:
-  var  ejemplo = objeto.unaPropiedad;
   delete objeto.unaPropiedad;
-  return ejemplo;
+  return objeto;
 }
 
 function nuevoUsuario(nombre, email, password) {
