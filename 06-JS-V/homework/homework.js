@@ -39,14 +39,15 @@ function agregarStringInvertida() {
 //  String.prototype.reverse = function() {
     var newstring = '';
   //  var stringInvertida = '';
-    for(var i = this.length - 1; i>=0; i--) {
+//    for(var i = this.length - 1; i>=0; i--) {
+      for( i = this.length - 1; i  => 0; i--){    
       newstring = newstring + this.charAt(i);
     }
     return newstring;
   };/*
 
 
-  for( i = this.length - 1; i  => 0; i--){
+ 
     newstring = newstring + this.charAt[i];
   }
   return newstring; 
