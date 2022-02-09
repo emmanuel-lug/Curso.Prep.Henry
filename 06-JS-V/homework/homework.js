@@ -42,7 +42,7 @@ function agregarStringInvertida() {
   }
   return newstring; 
   };
-}
+ }
 
 // ---------------------------------------------------------------------------//
   //4 Crea el constructor de la clase "Persona"
