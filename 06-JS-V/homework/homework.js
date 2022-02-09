@@ -10,10 +10,10 @@ function crearUsuario() {
   // Tu código:
    function Usuario(opciones){
    this.usuario = opciones.usuario;
- /*   this.nombre = opciones.nombre;
+    this.nombre = opciones.nombre;
     this.email = opciones.email;
     this.password = opciones.password;
-  }
+ /* }
   Usuario.prototipe.saludar = function(){
     return 'Hola, mi nombre es ' + this.nombre;
   };
@@ -21,9 +21,9 @@ function crearUsuario() {
   return Usuario; */
  // function Usuario(opciones) {
  //   this.usuario = opciones.usuario;
-    this.nombre = opciones.nombre;
-    this.email = opciones.email;
-    this.password = opciones.password;
+ //   this.nombre = opciones.nombre;
+ //   this.email = opciones.email;
+ //   this.password = opciones.password;
   }
 
   Usuario.prototype.saludar = function() {
