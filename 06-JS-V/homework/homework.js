@@ -17,28 +17,16 @@ function crearUsuario() {
   Usuario.prototype.saludar = function(){
     return 'Hola, mi nombre es ' + this.nombre;
   };
- // var objeto1 = new Usuario(usuario,nombre,email,password);
   return Usuario; 
- // function Usuario(opciones) {
- //   this.usuario = opciones.usuario;
- //   this.nombre = opciones.nombre;
- //   this.email = opciones.email;
- //   this.password = opciones.password;
- //  }
-
- // Usuario.prototype.saludar = function() {
- //   return 'Hola, mi nombre es ' + this.nombre;
- // };
-
- // return Usuario;
-
-
 }
 
 function agregarMetodoPrototype(Constructor) {
   //2 Agrega un método al Constructor del `prototype`
   // El método debe llamarse "saludar" y debe devolver la string "Hello World!"
   // Tu código:
+  Constructor.prototype.saludar = function(){
+    return 'Hello World';
+  }
 }
 
 function agregarStringInvertida() {
