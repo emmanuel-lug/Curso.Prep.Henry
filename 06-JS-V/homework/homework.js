@@ -77,7 +77,10 @@ function crearInstanciaPersona(nombre, apellido, edad, dir) {
   //5 Con esta función vamos a crear una nueva persona a partir de nuestro constructor de persona (creado en el ejercicio anterior)
   //Recibirá los valores "Juan", "Perez", 22, "Saavedra 123" para sus respectivas propiedades
   //Devolver la nueva persona creada
+  var  Persona1 = Persona.create(Persona.prototype);
+  return Persona1;
 }
+
   
 function agregarMetodo() {
   //6 La función agrega un método "datos" a la clase Persona que toma el nombre y la edad de la persona y devuelve: 
