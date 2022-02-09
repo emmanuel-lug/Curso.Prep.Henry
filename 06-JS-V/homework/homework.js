@@ -9,16 +9,16 @@ function crearUsuario() {
   // Devuelve la clase
   // Tu código:
   function Usuario(usuario,nombre,email,password){
-    usuario = usuario,
-    nombre =  nombre,
-    email = email,
-    password = password
+    this.usuario = usuario;
+    this.nombre =  nombre;
+    this.email = email;
+    this.password = password;
   }
   Usuario.Prototipe.saludar = function(){
     return 'Hola, mi nombre es ' + this.nombre;
   }
-  var objeto1 = new Usuario(usuario,nombre,email,password);
-  return objeto1;
+ // var objeto1 = new Usuario(usuario,nombre,email,password);
+  return Usuario;
 
 }
 
