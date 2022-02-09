@@ -40,7 +40,7 @@ function agregarStringInvertida() {
   for( i = this.length - 1; i  => 0; i--){
     newstring = newstring + this.charAt[i];
   }
-  return newstring;
+  return newstring; 
   };
 }
 
