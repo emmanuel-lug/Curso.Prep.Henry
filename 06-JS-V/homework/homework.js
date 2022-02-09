@@ -9,7 +9,7 @@ function crearUsuario() {
   // Devuelve la clase
   // Tu código:
    function Usuario(opciones){
-/   this.usuario = opciones.usuario;
+   this.usuario = opciones.usuario;
  /*   this.nombre = opciones.nombre;
     this.email = opciones.email;
     this.password = opciones.password;
