@@ -13,20 +13,20 @@ function crearUsuario() {
     this.nombre = opciones.nombre;
     this.email = opciones.email;
     this.password = opciones.password;
- /* }
+  }
   Usuario.prototipe.saludar = function(){
-    return 'Hola, mi nombre es ' + this.nombre;
-  };
+ //   return 'Hola, mi nombre es ' + this.nombre;
+ // };
  // var objeto1 = new Usuario(usuario,nombre,email,password);
-  return Usuario; */
+ // return Usuario; 
  // function Usuario(opciones) {
  //   this.usuario = opciones.usuario;
  //   this.nombre = opciones.nombre;
  //   this.email = opciones.email;
  //   this.password = opciones.password;
-  }
+ //  }
 
-  Usuario.prototype.saludar = function() {
+ // Usuario.prototype.saludar = function() {
     return 'Hola, mi nombre es ' + this.nombre;
   };
 
