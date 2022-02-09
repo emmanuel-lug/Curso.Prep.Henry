@@ -26,7 +26,7 @@ function agregarMetodoPrototype(Constructor) {
   // Tu código:
   Constructor.prototype.saludar = function(){
     return 'Hello World';
-  }
+  };
 }
 
 function agregarStringInvertida() {
