@@ -10,7 +10,9 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 display: relative;
 top: 10px;
 }
-
+#instructions{
+    background-color: violet;
+}
 
 /* Ejercicio 2: Posicionar el header */
 
