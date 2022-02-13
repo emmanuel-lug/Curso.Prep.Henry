@@ -6,29 +6,38 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 /* Ejercicio 1: Centrar el texto en un span */
 
 /* Arrancaremos este ejercicio por vos: */
-#ejercicioUno {
-display: relative;
-top: 10px;
-}
-#instructions{
-    background-color: violet;
-}
 
+#ejercicioUno {
+    display: block;
+    position: relative;
+    text-align: center;
+    }
 /* Ejercicio 2: Posicionar el header */
 
 /* Acá va tu código */
 
-
+#ejercicioDos{
+    display: none;
+}
 
 /* Ejercicio 3: */
 
 /* Acá va tu código */
-
+#ejercicioTres{
+    position: relative;
+    top: 100px;
+    left: 200px;
+}
 
 
 /* Ejercicio 4: */
 
 /* Acá va tu código */
+#ejercicioCuatro{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
 
 
 
@@ -36,6 +45,61 @@ top: 10px;
 
 /* Acá va tu código */
 
-
+#ejercicioCinco{
+    display: flex;
+    justify-content: space-around;
+    align-items: center ;
+}
 
 /* Ejercicio 6. */
+
+/* Acá va tu código */
+
+#ejercicioCinco{
+flex-direction: row-reverse;
+}
+
+
+/* Ejercicio 7. */
+
+/* Acá va tu código */
+#ejercicioSiete{
+ display: flex;
+
+
+}
+#elementoUno{
+    background-color: aqua;
+    position: relative;
+    bottom: 5px;
+    left: -5px;
+}
+
+#elementoDos{
+background-color: blueviolet;
+position: relative;
+bottom: 5px;
+left: 255px;
+}
+
+#elementoTres{
+background-color:  greenyellow;
+position: relative;
+bottom: -300px;
+left: -250px;
+}
+
+#elementoCuatro{
+background-color: palevioletred;
+position: relative;
+bottom: -300px;
+right: -5px;
+}
+
+/* Ejercicio 8. */
+
+/* Acá va tu código */
+
+/* Ejercicio 9. */
+
+/* Acá va tu código */
